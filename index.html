@@ -10,8 +10,9 @@
   </head>
   <body>
     <main class="calculator">
-      <input type="text" />
-      <button class="calculator__operations-button calculator__operations-button_clear">C</button>
+      <input type="text" id="operationsInput"/>
+      <button class="calculator__operations-button calculator__operations-button_clear" id="clear">C</button>
+      <button class="calculator__operations-button calculator__operations-button_backspace" id="backspace">&#8592</button>
       <button class="calculator__operations-button">+</button>
       <button class="calculator__digits-button">7</button>
       <button class="calculator__digits-button">8</button>
@@ -27,7 +28,7 @@
       <button class="calculator__operations-button">/</button>
       <button class="calculator__digits-button calculator__digits-button_zero">0</button>
       <button class="calculator__digits-button">,</button>
-      <button class="calculator__operations-button">=</button>
+      <button class="calculator__operations-button" id="equalSign">=</button>
     </main>
   </body>
   <script src="/js/main.js"></script>
