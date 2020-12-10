@@ -21,3 +21,7 @@ buttonsToFillInput.forEach(button => {
     button.addEventListener('click', () => textInput.value += button.innerText)
 })
 
+resultButton.addEventListener('click', () => {
+    textInput.value = eval(textInput.value)
+})
+
